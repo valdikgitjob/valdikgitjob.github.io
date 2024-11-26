@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+.marquesina {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 36px;
+}
+
+.marquesina h1 {
+    margin: 0;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #008080;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+
+.productos-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.producto .descripcion {
+    margin-top: 10px;
+}
+
+.producto h3 {
+    font-size: 20px;
+    color: #008080;
+    margin: 10px 0;
+}
+
+.producto p {
+    font-size: 18px;
+}
+
+
+#contactos p {
+    font-size: 18px;
+}
